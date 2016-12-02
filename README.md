@@ -40,6 +40,7 @@ Para o processamento paralelo o sinal de entrada será processado simultaneament
 O sistema permite alternar a qualquer momentro entre uma forma de processamento e a outra. O sinal de entrada pode ser um Ruído Branco, um arquivo de áudio de seu próprio computador ou a entrada do microfone de seu computador. O resultado filtrado do Ruído Branco e do Arquivo de Áudio será tocado pelo computador quando essas formas de entrada forem escolhidas. Em qualquer uma das formas de entradas, teremos o espectro do sinal original sendo visualizado e o espectro do sinal resultante. A frequência de corte dos filtros podem ser alteradas utilizando sliders.
 
 Link para o experimento: (goo.gl/nZqWW6)
+
 Link para o código: (github.com/fabiogoro/webfilters)
 
 ## Resultados
