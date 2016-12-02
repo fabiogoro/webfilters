@@ -13,14 +13,17 @@ O Passa Baixa será aplicado removendo quase todas as frequência e mantendo ape
 ![Serial, Passa Baixa em 2 kHz, Passa Alta em 20 kHz](https://raw.githubusercontent.com/fabiogoro/webfilters/master/serial-pb2kpa20k.png)
 * Serial. Passa Baixa em 20 kHz, Passa Alta em 2 kHz:
 Um filtro é aplicado após o outro, o Passa Baixa irá remover frequência abaixo de 2 kHz e o Passa Alta removerá o que está acima de 20 kHz, ficamos então com tudo que está entre 2 kHz e 20 kHz, portanto, obtemos um Passa Faixa.
+
 ![Serial, Passa Baixa em 20 kHz, Passa Alta em 2 kHz](https://raw.githubusercontent.com/fabiogoro/webfilters/master/serial-pb20kpa2k.png)
 
 * Paralelo, Passa Baixa em 2 kHz, Passa Alta em 20 kHz: 
 O filtro Passa baixa manterá apenas frequências abaixo de 2 kHz, mas como o processamento aqui é paralelo, as frequências que ele manteve são incluídas em conjunto com as frequências que o filtro Passa Alta irá deixar, que são frequências acima de 20 kHz. Então teremos um filtro Rejeita Banda, que reduzirá frequências entre o intervalo de 2 kHz e 20 kHz.
+
 ![Paralelo, Passa Baixa em 2 kHz, Passa Alta em 20 kHz](https://raw.githubusercontent.com/fabiogoro/webfilters/master/paralelo-pb2kpa20k.png)
 
 * Paralelo. Passa Baixa em 20 kHz, Passa Alta em 2 kHz:
 O filtro Passa Baixa irá manter a maioria das frequências, tudo que está abaixo de 20 kHz, e o Passa Alta irá manter tudo que está abaixo de 2 kHz. O resultado será um espectro onde todas as frequências estão presentes, pois algum dos dois filtros passavam alguma delas, portanto será um filtro Passa Tudo.
+
 ![Paralelo, Passa Baixa em 20 kHz, Passa Alta em 2 kHz](https://raw.githubusercontent.com/fabiogoro/webfilters/master/paralelo-pb20kpa2k.png)
 
 ## Sistema
